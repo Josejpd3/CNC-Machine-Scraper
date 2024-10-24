@@ -1,9 +1,11 @@
-import Image from "next/image";
+'use client'
+import ScraperControl from "../components/ScraperControl";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <main className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">CNC Scraper</h1>
+      <ScraperControl />
+    </main>
   );
 }
