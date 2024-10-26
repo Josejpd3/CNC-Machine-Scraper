@@ -24,7 +24,7 @@ export function Navigation() {
                 currentPath === '/' ? 'after:content-[""] after:absolute after:bottom-[-20px] after:left-0 after:w-full after:h-1 after:bg-red-500 after:shadow-[0_-5px_10px_0px_rgba(239,68,68,0.5)]' : ''
               }`}
             >
-              Home
+              Scrape
             </Link>
           </li>
           <li className="h-full flex items-center">
