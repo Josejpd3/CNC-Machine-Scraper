@@ -33,8 +33,8 @@ const AveragePriceBarChart = ({ machines }) => {
       {
         label: 'Average Price',
         data: averagePrices.map(item => item.averagePrice),
-        backgroundColor: 'rgba(75, 192, 192, 0.6)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(239,68,68,0.9)',
+        borderColor: 'rgba(239,68,68,1)',
         borderWidth: 1,
       },
     ],
