@@ -6,6 +6,7 @@ import MachineTable from '@/components/MachineTable'
 import MachineTypePieChart from '@/components/MachineTypePieChart'
 import AveragePriceBarChart from '@/components/AveragePriceBarChart'
 import { Button } from '@/components/ui/button'
+import PriceTrendChart from '@/components/PriceTrendChart'
 
 const AnalysisContent = () => {
   const [machines, setMachines] = useState([])
@@ -129,6 +130,10 @@ const AnalysisContent = () => {
           <h2 className="text-xl font-semibold mb-4">Average Price by Machine Type</h2>
           <AveragePriceBarChart machines={machines} />
         </div>
+      </div>
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold mb-4">Price Trends by Machine Type</h2>
+        <PriceTrendChart machines={machines} />
       </div>
       <MachineTable machines={machines} />
     </div>
