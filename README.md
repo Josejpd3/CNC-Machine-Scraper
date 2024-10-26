@@ -54,7 +54,8 @@ The scraper is designed to handle multiple pages and can be configured for diffe
 - `/api/machines`: Retrieves all stored machine data
 - `/api/health`: Health check endpoint
 
-## Project Screenshot
+## Project Demo
 
-![CNC Machine Scraper Dashboard](public/analysis-page.png)
+![CNC Machine Scraper Dashboard](public/demo_analysis.gif)
+<br/>
 *Data Analysis Page*
